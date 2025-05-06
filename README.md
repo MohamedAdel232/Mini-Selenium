@@ -65,16 +65,16 @@ All these endpoints are implemented manually in the `MiniWebDriver` class using 
 Start the ChromeDriver HTTP server manually in a terminal:
 
 ```bash
-chromedriver --port=64312
+chromedriver --port={portNumber}
 ```
 
 Make sure you see:
 
 ```
-Starting ChromeDriver... on port 64312
+Starting ChromeDriver... on port {portNumber}
 ```
 
-This project expects ChromeDriver to run locally at `http://localhost:64312`
+This project expects ChromeDriver to run locally at `http://localhost:{portNumber}`
 
 ---
 
